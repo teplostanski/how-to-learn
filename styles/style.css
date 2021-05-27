@@ -1,31 +1,74 @@
 .page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+.logo {}
+
+.logo_place_header {
+    position: absolute;
+    width: 183px;
+    height: 32px;
 }
 
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    position: relative;
+    /* выше установили ограничения для секции */
 }
+
+.header__title {
+    width: 730px;
+    font-size: 102px;
+    font-weight: bolder;
+    line-height: 96px;
+}
+
+.header__subtitle {
+    position: absolute;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.header__link {}
+
+.header__main-illustration {
+    width: 765px;
+    height: 608px;
+    З display: flex;
+    background-image: url(/images/header-image.png);
+    z-index: 2;
+    background-size: cover;
+    position: absolute;
+}
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    position: absolute;
 }
 
+
 /* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
 }
