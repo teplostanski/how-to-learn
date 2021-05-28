@@ -12,12 +12,7 @@
     position: relative;
   }
 
-    /* все ссылки, которые пользователь не трогал, будут синие */
-    .header__link {
-        color: #2f80ed;
-        text-decoration: none;
-    }
-
+/*-------------------------block-header-------------------------*/
     .header {
         display: flex;
         height: 100vh;
@@ -60,6 +55,11 @@
         z-index: 2;
         }
 
+    .header__link {
+        color: #2f80ed;
+        text-decoration: none;
+    }
+
     .header__main-illustration {
         display: flex;
         width: 765px;
@@ -79,7 +79,15 @@
         right: 0;
         top: 64px;
     }
-        
+/*---------------------block-two-colums-------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------*/
     .table__cell_theme_dark {
         width: 200px;
         color: white;
