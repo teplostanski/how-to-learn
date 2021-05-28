@@ -81,30 +81,33 @@
     }
     /*-----------------block-two-colums-------------------------*/
     .description {
-        border: 1px solid red;
+        
         display: flex;
+        justify-content: center;
+        margin: 100px 0;
     }
 
     .two-columns {
-        border: 1px solid red;
+        
         display: flex;
         justify-content: space-between;
         width: 80%;
-        margin: 100px auto;
+        margin: none;
     }
 
     .two-columns__brief {
-        border: 1px solid red;
+        
         width: 175px;
         color: #2f80ed;
         font-size: 18px;
         font-weight: normal;
         line-height: 1.2;
+        margin: 0;
         
     }
 
     .two-columns__main-text {
-        border: 1px solid red;
+        
         width: 80%;
         min-width: 784px;
         font-size: 24px;
@@ -114,9 +117,12 @@
     }
 
     .two-columns__paragraph {
-        border: 1px solid red;
         
-        
+        margin: 0 0 30px 0;
+    }
+
+    .two-columns__paragraph:nth-of-type(3n) {
+        margin: 0;
     }
 
     .two-columns__span-accent {
