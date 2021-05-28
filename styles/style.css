@@ -79,7 +79,54 @@
         right: 0;
         top: 64px;
     }
-/*---------------------block-two-colums-------------------------*/
+    /*-----------------block-two-colums-------------------------*/
+    .description {
+        border: 1px solid red;
+        display: flex;
+    }
+
+    .two-columns {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .two-columns__brief {
+        border: 1px solid red;
+        width: 175px;
+        color: #2f80ed;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.2;
+        
+    }
+
+    .two-columns__main-text {
+        border: 1px solid red;
+        width: 80%;
+        min-width: 784px;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 34px;
+        
+    }
+
+    .two-columns__paragraph {
+        border: 1px solid red;
+        
+        
+    }
+
+    .two-columns__span-accent {
+        font-size: 24px;
+        font-weight: bolder;
+        line-height: 34px;
+    }
+
+    
+
 
 
 
