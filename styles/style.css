@@ -81,14 +81,12 @@
     }
     /*-----------------block-two-colums-------------------------*/
     .description {
-        
         display: flex;
         justify-content: center;
         margin: 100px 0;
     }
 
     .two-columns {
-        
         display: flex;
         justify-content: space-between;
         width: 80%;
@@ -96,7 +94,6 @@
     }
 
     .two-columns__brief {
-        
         width: 175px;
         color: #2f80ed;
         font-size: 18px;
@@ -107,17 +104,14 @@
     }
 
     .two-columns__main-text {
-        
         width: 80%;
         min-width: 784px;
         font-size: 24px;
         font-weight: normal;
         line-height: 34px;
-        
     }
 
     .two-columns__paragraph {
-        
         margin: 0 0 30px 0;
     }
 
@@ -130,8 +124,48 @@
         font-weight: bolder;
         line-height: 34px;
     }
+/*--------------------table--------------------------*/
+    .digits {
+        margin: 100px auto;
+    }
 
-    
+    .section-title {
+        border: 1px solid red;
+        width: 60%;
+        font-size: 60px;
+        font-weight: bolder;
+        line-height: 1.15;
+    }
+
+    .section-subtitle {
+        border: 1px solid red;
+        width: 60%;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 34px;
+    }
+
+    .table {
+        border: 1px solid red;
+    }
+
+    .table__cell {
+        border: 1px solid red;
+    }
+
+    .table__heading {
+        border: 1px solid red;
+        font-size: 24px;
+        font-weight: bolder;
+        line-height: 1.15;
+    }
+
+    .table__text {
+        border: 1px solid red;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.2;
+    }
 
 
 
