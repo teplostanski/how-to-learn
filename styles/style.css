@@ -12,7 +12,9 @@
     position: relative;
   }
 
-/*-------------------------block-header-------------------------*/
+
+
+/*-------------------------block-header--------------*/
     .header {
         display: flex;
         height: 100vh;
@@ -20,7 +22,6 @@
         max-height: 756px;
         position: relative;
         background-color: #f2f2f2;
-        /* выше установили ограничения для секции */
     }
     
     .logo_place_header {
@@ -79,7 +80,7 @@
         right: 0;
         top: 64px;
     }
-    /*-----------------block-two-colums-------------------------*/
+    /*-----------------block-two-colums--------------*/
     .description {
         display: flex;
         justify-content: center;
@@ -177,13 +178,62 @@
         font-weight: normal;
         line-height: 1.2;
     }
+/*--------------------feynman------------------------*/
+    .feynman {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 890px;
+        background-color: #f2f2f2;
+        background-size: cover;
+        background-image: url("/images/feynman.png");
+    }
+
+    .feynman__title {
+        display: flex;
+        align-items: center;
+        width: 648px;
+        font-size: 120px;
+        font-weight: bolder;
+        line-height: 1.15;
+        z-index: 1;
+        margin: 100px 0 0 0;
+    }
+
+    .feynman__subtitle {
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 51px,;
+        z-index: 1;
+        margin-top: 70px;
+    }
+
+    .feynman__link {
+        color: #2f80ed;
+        text-decoration: none;
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 51px,;
+        position: absolute;
+        right: 48px;
+        top: 50%;
+
+    }
+
+    .feynman__illustration {
+        display: flex;
+        width: 867px;
+        height: 637px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
 /*----------------------------------------------*/
-    
 
 
 
-    
-    
+
 
 
 
