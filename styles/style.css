@@ -253,7 +253,7 @@
         z-index: 1;
     }
 
-    .kaufman-triangle {
+    .kaufman__triangle {
         position: absolute;
         top: 0;
         right: -210px;
@@ -280,7 +280,7 @@
         width: 90%;
     }
 
-    .footer__columns_content_copyright {
+    .footer__column_content_copyright {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -302,11 +302,11 @@
         line-height: 25px;
     }
 
-    .footer__columns_content_info {
+    .footer__column_content_info {
         color: white;
     }
 
-    .footer__columns_content_social {
+    .footer__column_content_social {
         color: white;
     }
 
