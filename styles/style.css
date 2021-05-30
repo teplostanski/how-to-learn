@@ -210,7 +210,7 @@
         font-weight: normal;
         line-height: 51px;
         z-index: 1;
-        margin-top: 70px;
+        margin: 70px 0 0 0;
     }
 
     .feynman__link {
@@ -218,7 +218,7 @@
         text-decoration: none;
         font-size: 36px;
         font-weight: normal;
-        line-height: 51px,;
+        line-height: 51px;
         position: absolute;
         right: 48px;
         top: 50%;
@@ -272,6 +272,7 @@
         padding: 60px 0 40px;
         margin: 0;
         background-color: #1f1f1f;
+        box-sizing: border-box;
     }
 
     .footer__columns {
