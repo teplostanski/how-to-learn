@@ -194,21 +194,10 @@
         align-items: center;
         position: relative;
         height: 890px;
+        background: url(../images/feynman.png) no-repeat left bottom;
+        background-size: 867px 637px;
     }
-
-    .feynman__illustration {
-        display: flex;
-        width: 867px;
-        height: 637px;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        background: url(../images/feynman.png);
-        background-size: cover;
-        background-repeat: no-repeat;
         
-    }
-
     .feynman__title {
         display: flex;
         align-items: center;
