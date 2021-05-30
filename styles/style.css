@@ -206,7 +206,7 @@
     .feynman__subtitle {
         font-size: 36px;
         font-weight: normal;
-        line-height: 51px,;
+        line-height: 51px;
         z-index: 1;
         margin-top: 70px;
     }
@@ -270,38 +270,77 @@
     }
 /*----------------------footer----------------------*/
     .footer {
-        border: 1px solid red;
+        display: flex;
         min-height: 350px;
+        padding: 60px 0 40px;
+        margin: 0;
     }
 
     .footer__columns {
         display: flex;
         flex-direction: row;
-        border: 1px solid red;
-        margin: 60px auto 40px;
+        justify-content: space-between;
+        margin: 0 auto;
         width: 90%;
+    }
+
+    .footer__columns_content_copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 711px;
     }
 
     .logo_place_footer {
         display: flex;
-        border: 1px solid red;
         width: 183px;
         height: 35px;
     }
 
     .footer__author {
+        display: flex;
         color: white;
-    }
-
-    .footer__columns_content_copyright {
-        border: 1px solid red;
-        flex-basis: 711px;
+        margin: 18px 0;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 25px;
     }
 
     .footer__columns_content_info {
-        border: 1px solid red;
+        color: white;
     }
 
     .footer__columns_content_social {
-        border: 1px solid red;
+        color: white;
+    }
+
+    .footer__column-heading {
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 30px;
+        margin: 0 0 20px 0;
+
+    }
+
+    .footer__column-links {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0 0 16px 0;
+        list-style: none;
+        padding: 0;
+
+    }
+
+    .footer__column-link {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .footer__social-icon {
+        width: 16px;
+        height: 16px;
+        margin: auto 10px auto 0;
     }
