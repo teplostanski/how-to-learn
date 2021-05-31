@@ -22,14 +22,17 @@
         background-color: #f2f2f2;
     }
     
-    .logo_place_header {
-        position: absolute;
+    .logo {
         width: 183px;
         height: 32px;
+    }
+
+    .logo_place_header {
+        position: absolute;
         left: 64px;
         top: 30px;
         z-index: 2;
-        }
+    }
 
     .header__title {
         display: flex;
@@ -293,9 +296,8 @@
         flex-basis: 711px;
     }
 
-    .footer__logo_place_footer {
+    .logo_place_footer {
         display: flex;
-        width: 183px;
         height: 35px;
     }
 
