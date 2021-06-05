@@ -12,13 +12,15 @@ root = true
 
 # Possible values - tab, space
 
-indent_style = space
+indent_style = tab
 
 # Indentation size in single-spaced characters
 
 # Possible values - an integer, tab
 
-indent_size = 2
+indent_size = tab
+
+tab_size = 2
 
 # Line ending file format
 
