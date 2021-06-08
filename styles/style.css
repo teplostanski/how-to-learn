@@ -93,12 +93,14 @@
 }
 
 .two-columns {
+	border: 1px solid red;
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
 
 .two-columns__brief {
+	border: 1px solid red;
   width: 175px;
   color: #2f80ed;
   font-size: 18px;
@@ -109,6 +111,7 @@
 }
 
 .two-columns__main-text {
+	border: 1px solid red;
   width: 80%;
   min-width: 784px;
   font-size: 24px;
@@ -117,6 +120,7 @@
 }
 
 .two-columns__paragraph {
+	border: 1px solid red;
   margin: 0 0 30px 0;
 }
 
@@ -125,9 +129,26 @@
 }
 
 .two-columns__span-accent {
+	border: 1px solid red;
   font-size: 24px;
   font-weight: bolder;
   line-height: 34px;
+}
+
+/*--------------------video-------------------------*/
+
+
+/*--------------------oakley------------------------*/
+.oakley {
+	border: 1px solid red;
+	display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.two-columns__paragraph {
+	border: 1px solid red;
+  margin: 0;
 }
 
 /*--------------------table-------------------------*/
