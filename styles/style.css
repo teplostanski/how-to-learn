@@ -167,13 +167,10 @@
 	width: 920px;
 	display: grid;
 	grid-template-columns: repeat(3, 240px);
-    column-gap: 100px;
+	column-gap: 100px;
 	/*display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;*/
-}
-
-.cards__item {
 }
 
 .cards__image {
