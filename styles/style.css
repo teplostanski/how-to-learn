@@ -154,6 +154,51 @@
   line-height: 34px;
 }
 
+/*--------------------techniques-------------------*/
+.techniques {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+	width: 920px;
+	display: grid;
+	grid-template-columns: repeat(3, 240px);
+    column-gap: 100px;
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;*/
+}
+
+.cards__item {
+}
+
+.cards__image {
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+.cards__description {
+	line-height: 23px;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 16px 0 0 0;
+	text-align: center;
+}
+
 /*--------------------video------------------------*/
 .video {
 	width: 1100px;
