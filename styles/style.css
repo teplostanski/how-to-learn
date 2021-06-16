@@ -20,7 +20,7 @@
   position: relative;
 }
 
-/*-------------------------block-header-------------*/
+/*------------------------block-header-------------*/
 .header {
   display: flex;
   height: 100vh;
@@ -43,11 +43,16 @@
   z-index: 2;
 }
 
+.logo_place_header:hover {
+  opacity: 0.3;
+  transition: 0.55s;
+}
+
 .header__title {
   display: flex;
   width: 730px;
   font-size: 102px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 96px;
   justify-content: center;
   align-self: center;
@@ -70,6 +75,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  opacity: 0.3;
+  transition: 0.55s;
 }
 
 .header__main-illustration {
@@ -99,7 +109,7 @@
 	animation: rotation 20s linear infinite;
 }
 
-/*-----------------block-two-colums-----------------*/
+/*-----------------block-two-colums----------------*/
 .description {
   display: flex;
   justify-content: center;
@@ -140,11 +150,11 @@
 
 .two-columns__span-accent {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 34px;
 }
 
-/*--------------------video-------------------------*/
+/*--------------------video------------------------*/
 .video {
 	width: 1100px;
 	margin: 100px auto 0;
@@ -167,7 +177,7 @@
 	margin: 0;
 }
 
-/*--------------------oakley------------------------*/
+/*--------------------oakley-----------------------*/
 .oakley {
 	display: flex;
   justify-content: center;
@@ -175,7 +185,8 @@
 	background-color: #f2f2f2;
 }
 
-/*--------------------feynman-----------------------*/
+
+/*--------------------feynman----------------------*/
 .feynman {
   display: flex;
   flex-direction: column;
@@ -193,7 +204,7 @@
   align-items: center;
   width: 648px;
   font-size: 120px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 1.15;
   z-index: 1;
   text-align: center;
@@ -220,8 +231,12 @@
 
 }
 
+.feynman__link:hover {
+  opacity: 0.3;
+  transition: 0.55s;
+}
 
-/*--------------------table-------------------------*/
+/*--------------------table------------------------*/
 .digits {
 	width: 1100px;
 	margin: 100px auto;
@@ -234,7 +249,7 @@
 .section-title {
   width: 60%;
   font-size: 60px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 1.15;
   margin: 0 auto;
   display: flex;
@@ -264,7 +279,7 @@
 
 .table__heading {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 1.15;
   margin: 0;
 }
@@ -276,7 +291,80 @@
   margin: 20px 0 0 0;
 }
 
-/*---------------table theme dark-------------------*/
+/*---------------------khan------------------------*/
+.khan {
+	background-color: #f2f2f2;
+	padding: 105px 0 0 0;
+}
+
+.khan__container {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.khan__author {
+	line-height: 42px;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.khan__title {
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.khan__quote {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	width: 790px;
+	margin: 50px 0 36px 0;
+}
+
+.khan__quote-author {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.khan__quote-author-subline {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 10px 0 68px 0;
+}
+
+.khan__book-container {
+	display: flex;
+}
+
+.khan__book-pic {
+	margin: 0 48px 0 0;
+	width: 608px;
+	height: 620px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.khan__buy-link {
+	color: #2f80ed;
+  text-decoration: none;
+	line-height: 42px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.3;
+  transition: 0.55s;
+}
+
+/*--------------table theme dark-------------------*/
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -318,7 +406,7 @@
   z-index: -1;
 }
 
-/*----------------------resources----------------------*/
+/*------------------resources----------------------*/
 .resources {
 	padding-top: 100px;
 	position: relative;
@@ -338,7 +426,7 @@
 	height: 38px;
 }
 
-/*----------------------footer----------------------*/
+/*---------------------footer----------------------*/
 .footer {
   display: flex;
   min-height: 350px;
@@ -392,7 +480,7 @@
 
 .footer__column-heading {
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 30px;
   margin: 0 0 20px 0;
 }
@@ -410,6 +498,11 @@
   display: flex;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  opacity: 0.3;
+  transition: 0.55s;
 }
 
 .footer__social-icon {
