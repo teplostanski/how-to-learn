@@ -21,7 +21,7 @@
 }
 
 /*------------------------block-header-------------*/
-.header {
+/*.header {
   display: flex;
   height: 100vh;
   min-height: 600px;
@@ -29,14 +29,14 @@
   position: relative;
   background-color: #f2f2f2;
 	overflow: hidden;
-}
+}*/
 
-.logo {
+/*.logo {
   width: 183px;
   height: 32px;
-}
+}*/
 
-.logo_place_header {
+/*.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -46,9 +46,9 @@
 .logo_place_header:hover {
   opacity: 0.3;
   transition: 0.55s;
-}
+}*/
 
-.header__title {
+/*.header__title {
   display: flex;
   width: 730px;
   font-size: 102px;
@@ -58,7 +58,7 @@
   align-self: center;
   z-index: 2;
   margin: 0 0 0 64px;
-}
+}*/
 
 .header__subtitle {
   position: absolute;
