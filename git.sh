@@ -2,7 +2,7 @@
 echo 'Название коммита'
 git add .
 read comment
-git commit -m '$comment'
+git commit -m $comment
 
 
 while true; do
