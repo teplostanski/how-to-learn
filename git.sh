@@ -10,6 +10,6 @@ while true; do
     case $yn in
         [^M]* ) git push; break;;
         [Nn]* ) exit;;
-        #* ) git push; break;;
+        * ) git push; break;;
     esac
 done
