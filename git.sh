@@ -8,7 +8,7 @@ git commit -m '$comment'
 while true; do
     read -p "Пушим? [Y/n]" yn
     case $yn in
-        [Yy]* ) git push; break;;
+        [Yy|^M]* ) git push; break;;
         [Nn]* ) exit;;
         #* ) git push; break;;
     esac
